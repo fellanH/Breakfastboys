@@ -3943,13 +3943,14 @@ a.logo:hover{
 }
 .ci-title{
     margin-bottom: 1px;
-    color: #777;    
+    color: #fff;    
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.3em;
 }
 .ci-text{
+    color: #fff;
     font-size: 15px;
     font-weight: 300;
 }
