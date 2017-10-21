@@ -3908,7 +3908,7 @@ a.logo:hover{
     position: absolute;
     top: 10px;
     left: 3px;
-    color: #fff;
+    color: #111;
     text-align: center;
     line-height: 23px;
 }
@@ -3920,7 +3920,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: #111;
+    background: #fff;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6368,6 +6368,10 @@ section:hover .small-item-carousel .owl-next{
     transform: rotate(45deg);
     
     z-index: 1;
+}
+
+.inverted {
+    filter: invert(100%);
 }
 
 /* Dark Timer */
