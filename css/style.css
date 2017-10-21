@@ -3276,6 +3276,10 @@ a.logo:hover{
  * Works filter
  */
 
+ #portfolio {
+     padding-top: 50px;
+ }
+
 .works-filter{
     list-style: none;
     padding: 0;
