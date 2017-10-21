@@ -2505,7 +2505,7 @@ a.logo:hover{
 
 
 .bg-dark{
-    background-color: #070707;
+    background-color: #070707 !important;
 }
 .bg-dark-lighter{
     background-color: #111;
@@ -6461,4 +6461,12 @@ section:hover .small-item-carousel .owl-next{
     .multi-columns-row .col-lg-3:nth-child(4n + 5) { clear: left; }
     .multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
     .multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
+}
+
+/* ==============================
+            Egen Css
+   ============================== */
+
+.background-dark {
+    background-color: #070707 !important;
 }
