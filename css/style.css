@@ -2502,10 +2502,10 @@ a.logo:hover{
 
 
 .bg-dark{
-    background-color: #111;
+    background-color: #070707;
 }
 .bg-dark-lighter{
-    background-color: #252525;
+    background-color: #111;
 }
 .bg-dark-alfa:before,
 .bg-dark-alfa .YTPOverlay:before{
