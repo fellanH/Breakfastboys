@@ -635,7 +635,7 @@ a.btn-mod:hover,
 a.btn-mod:focus{
     font-weight: 400;
     color: rgba(255,255,255, .85);
-    background: rgba(0,0,0, .7);
+    background: rgba(25, 25, 25, 0.80);
     text-decoration: none;
     outline: none;
     border-color: transparent;    
@@ -936,7 +936,7 @@ a.btn-mod:focus{
     font-weight: 400;
     text-transform: uppercase !important;
     letter-spacing: 1px;
-    color: #777;
+    color: #555;
     border-color: rgba(0,0,0, .1);
     outline: none;
     
@@ -4202,6 +4202,9 @@ a.link-to-top{
     font-size: 48px;
 }
 
+.footer-copy:hover > a {
+    color: #777;
+}
 
 /* ==============================
    Blog
