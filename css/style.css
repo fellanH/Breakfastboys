@@ -3943,15 +3943,22 @@ a.logo:hover{
 }
 .ci-title{
     margin-bottom: 1px;
-    color: #777;    
+    color: #ccc;    
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.3em;
 }
-.ci-text{
+.ci-text,
+.ci-text > a {
     font-size: 15px;
     font-weight: 300;
+    color: #888;
+}
+
+.ci-text:hover,
+.ci-text:hover > a {
+    color: #666;
 }
 
 /*
@@ -4191,7 +4198,7 @@ a.link-to-top{
     height: 40px;
     line-height: 40px;
     text-align: center;
-    color: rgba(0,0,0, .2);
+    color: rgba(f,f,f, 1);
     font-size: 48px;
 }
 
