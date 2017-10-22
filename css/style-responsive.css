@@ -844,3 +844,7 @@ Primary use:    MultiPurpose Template
 .mobile .page-section, .mobile .home-section, .mobile .small-section{
     background-attachment: scroll;
 }
+
+.padding-top-70-responsive {
+    padding-top: 70px;
+}
