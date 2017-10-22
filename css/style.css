@@ -2370,6 +2370,9 @@ a.logo:hover{
 .page-section#team {
     padding-top: 0;
 }
+.page-section#contact {
+    padding-top: 50px;
+}
 .small-section{
     padding: 70px 0;
 }
@@ -2678,7 +2681,7 @@ a.logo:hover{
 
 .section-title {
     margin-bottom: 15px;
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
@@ -5545,7 +5548,7 @@ section:hover .small-item-carousel .owl-next{
 }
 .et-examples .box1{
     display: block;
-    width: 33%;
+    width: 100%;
     float: left;
     padding: 0;
     border: 1px solid #e5e5e5;
@@ -5554,7 +5557,7 @@ section:hover .small-item-carousel .owl-next{
 }
 @media only screen and (max-width: 1024px) {
     .et-examples .box1{
-        width: 50%;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -6534,5 +6537,5 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .padding-top-portfolio {
-    padding-top: 100px;
+    padding-top: 40px;
 }
