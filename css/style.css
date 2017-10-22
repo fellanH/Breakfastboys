@@ -6547,3 +6547,7 @@ section:hover .small-item-carousel .owl-next{
 .padding-top-portfolio {
     padding-top: 40px;
 }
+
+.white-85 {
+    color: rgba(255, 255, 255, .85);
+}
