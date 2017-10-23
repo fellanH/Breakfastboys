@@ -2727,7 +2727,7 @@ a.logo:hover{
     background: #111;
 }
 .section-text{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 300;
     color: #777;
     line-height: 1.7;
@@ -6523,6 +6523,13 @@ section:hover .small-item-carousel .owl-next{
     color: #fff;
 }
 
+.color-orange{
+    color: rgb(211, 84, 0);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
 
 
 /* ==============================
@@ -6591,6 +6598,15 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .padding-top-80 {
+    padding-top: 80px !important;
+}
+
+.light-grey {
+    color: rgb(204, 204, 204);
+}
+
+.background-black {
+    background-color: black;
     padding-top: 80px;
 }
 
