@@ -2370,6 +2370,9 @@ a.logo:hover{
 .page-section#team {
     padding-top: 0;
 }
+.page-section#contact {
+    padding-top: 50px;
+}
 .small-section{
     padding: 70px 0;
 }
@@ -2678,7 +2681,7 @@ a.logo:hover{
 
 .section-title {
     margin-bottom: 15px;
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
@@ -3420,7 +3423,7 @@ a.logo:hover{
 }
 .works-grid.hide-titles .work-item .work-intro{
     opacity: 0;
-    bottom: -94px;
+    bottom: -99px;
 }
 .works-grid.hide-titles .work-item:hover .work-intro{
     opacity: 1;
@@ -5539,13 +5542,13 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .et-examples{
-    color: #555;
+    color: #777;
     margin-left: 1px;
     vertical-align: middle;
 }
 .et-examples .box1{
     display: block;
-    width: 33%;
+    width: 100%;
     float: left;
     padding: 0;
     border: 1px solid #e5e5e5;
@@ -5554,7 +5557,7 @@ section:hover .small-item-carousel .owl-next{
 }
 @media only screen and (max-width: 1024px) {
     .et-examples .box1{
-        width: 50%;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -5565,6 +5568,10 @@ section:hover .small-item-carousel .owl-next{
 .et-examples .box1:hover{
     background: #f8f8f8;
     color: #111;
+    border: 1px solid #111;
+}
+.et-examples .box1:hover > span {
+    border-right: 1px solid #111;
 }
 .et-examples .box1 > span{
     display: inline-block;
@@ -6466,6 +6473,22 @@ section:hover .small-item-carousel .owl-next{
   }
 }
 
+.no-padding{
+    padding: 0;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0;
+}
+
+.no-padding-top {
+    padding-top: 0px;
+}
+
+.color-white{
+    color: #fff;
+}
+
 
 
 /* ==============================
@@ -6543,4 +6566,20 @@ section:hover .small-item-carousel .owl-next{
 
 .background-black {
     background-color: black;
+    padding-top: 80px;
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+.padding-top-portfolio {
+    padding-top: 40px;
+}
+
+.white-85 {
+    color: rgba(255, 255, 255, .85);
+}
+.vertical-align {
+vertical-align: middle;
 }
