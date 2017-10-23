@@ -5553,16 +5553,50 @@ section:hover .small-item-carousel .owl-next{
     padding: 0;
     border: 1px solid #e5e5e5;
     margin: -1px 0 0 -1px;
-    font-size: 13px;
+    font-size: 25px;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .et-examples .box1{
         width: 100%;
+        font-size: 20px;
     }
 }
+@media only screen and (max-width: 1000px) {
+    .et-examples .box1{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .et-examples .box1{
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .et-examples .box1{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .et-examples .box1{
         width: 100%;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .et-examples .box1{
+        width: 100%;
+        font-size: 12  px;
+        margin-bottom: 20px;
     }
 }
 .et-examples .box1:hover{
