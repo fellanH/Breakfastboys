@@ -6645,6 +6645,11 @@ vertical-align: middle;
     
 }
 
+.mfp-figure:after {
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
 #what,
 #we,
 #do {
