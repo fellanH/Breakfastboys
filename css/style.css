@@ -6490,7 +6490,7 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .color-orange{
-    color: rgb(211, 84, 0);
+    color: rgb(211, 84, 0) !important;
 }
 
 .uppercase {
