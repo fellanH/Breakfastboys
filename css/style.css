@@ -6532,3 +6532,15 @@ section:hover .small-item-carousel .owl-next{
 .background-dark {
     background-color: #070707 !important;
 }
+
+.padding-top-80 {
+    padding-top: 80px !important;
+}
+
+.light-grey {
+    color: rgb(204, 204, 204);
+}
+
+.background-black {
+    background-color: black;
+}
