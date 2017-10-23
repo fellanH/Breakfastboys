@@ -6532,6 +6532,10 @@ section:hover .small-item-carousel .owl-next{
     text-transform: uppercase;
 }
 
+.inner-nav ul li a:hover {
+    color: rgb(211, 84, 0) !important;
+}
+
 
 /* ==============================
    Bootstrap multicolumn grid
@@ -6625,3 +6629,10 @@ section:hover .small-item-carousel .owl-next{
 .vertical-align {
 vertical-align: middle;
 }
+
+#portfolio-btn:hover{
+    background-color: rgba(211, 84, 0, 0.5) !important;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, .75);
+    transform: scale(1.1);
+} 
