@@ -5568,10 +5568,10 @@ section:hover .small-item-carousel .owl-next{
 .et-examples .box1:hover{
     background: #f8f8f8;
     color: #111;
+    border: 1px solid #111;
 }
 .et-examples .box1:hover > span {
     border-right: 1px solid #111;
-    
 }
 .et-examples .box1 > span{
     display: inline-block;
@@ -6554,4 +6554,7 @@ section:hover .small-item-carousel .owl-next{
 
 .white-85 {
     color: rgba(255, 255, 255, .85);
+}
+.vertical-align {
+vertical-align: middle;
 }
