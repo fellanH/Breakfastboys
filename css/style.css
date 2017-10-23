@@ -1494,7 +1494,7 @@ a.logo:hover{
     top: 0;
     left: 0;
     text-align: left;
-    background: rgba(255,255,255, .97);
+    background: rgba(255,255,255, .97);;
     
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
     -moz-box-shadow: 0 1px 0 rgba(0,0,0,.05);
@@ -1573,6 +1573,7 @@ a.logo:hover{
     left: 0;
     padding: 0;
     background: rgba(30,30,30, .97);
+    
 }
 .mn-sub li{
     display: block;
@@ -2675,7 +2676,7 @@ a.logo:hover{
 .bg-yellow{  background-color: #ffce02 !important; }
 .bg-cyan{ background-color: #27c5c3 !important; }
 .bg-green{ background-color: #58bf44 !important; }
-.bg-blue{ background-color: #43a5de !important; }
+.bg-blue{ background-color: #02060b !important; }
 .bg-purple{ background-color: #375acc !important; }
 .bg-red{ background-color: #e13939 !important; }
 
@@ -5553,16 +5554,50 @@ section:hover .small-item-carousel .owl-next{
     padding: 0;
     border: 1px solid #e5e5e5;
     margin: -1px 0 0 -1px;
-    font-size: 13px;
+    font-size: 25px;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .et-examples .box1{
         width: 100%;
+        font-size: 20px;
     }
 }
+@media only screen and (max-width: 1000px) {
+    .et-examples .box1{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .et-examples .box1{
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .et-examples .box1{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .et-examples .box1{
         width: 100%;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .et-examples .box1{
+        width: 100%;
+        font-size: 12 px;
+        margin-bottom: 20px;
     }
 }
 .et-examples .box1:hover{
@@ -6490,7 +6525,15 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .color-orange{
+<<<<<<< HEAD
     color: rgb(211, 84, 0) !important;
+=======
+    color: #d35400;
+}
+
+.bg-blue{
+    background-color: #2c3e50;
+>>>>>>> c378416d6f30d48ef741db6fd4c69400f23b3e40
 }
 
 .uppercase {
@@ -6581,7 +6624,7 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .padding-top-portfolio {
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 .white-85 {
