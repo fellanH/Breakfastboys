@@ -6649,6 +6649,19 @@ vertical-align: middle;
     box-shadow: none !important;
     background: transparent !important;
 }
+#hero-desc{
+    font-size: 15px !important;
+}
+
+#hero-title{
+    font-size: 64px !important;
+}
+
+#portfolio-btn {
+    font-size: 14px !important;
+}
+
+
 
 #what,
 #we,
