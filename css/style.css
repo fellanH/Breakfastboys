@@ -3033,13 +3033,13 @@ a.logo:hover{
 
 /* Hover state */
 .no-mobile .team-item:hover .team-item-image:after{
-    background: rgba(255,255,255, .93);
+    background: rgba(255,255,255, .1);
 }
 .no-mobile .team-item:hover .team-item-detail{
     opacity: 1;
 }
 .no-mobile .team-item:hover .team-item-descr{    
-    color: #111;
+    color: #fff;
 }
 .no-mobile .team-social-links a:hover{
     color: rgba(0,0,0, .75);
@@ -6639,6 +6639,10 @@ vertical-align: middle;
 
 .section-more:hover {
     color: rgba(211, 84, 0, 0.9) !important;
+}
+
+.team-item-image:hover{
+    
 }
 
 #what,
