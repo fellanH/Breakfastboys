@@ -5601,12 +5601,12 @@ section:hover .small-item-carousel .owl-next{
     }
 }
 .et-examples .box1:hover{
-    background: #f8f8f8;
-    color: #111;
-    border: 1px solid #111;
+    background: #d35400;
+    color: #fff;
+    border: 1px solid #fff;
 }
 .et-examples .box1:hover > span {
-    border-right: 1px solid #111;
+    border-right: 1px solid #d35400;
 }
 .et-examples .box1 > span{
     display: inline-block;
