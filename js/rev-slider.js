@@ -20,7 +20,7 @@
             navigationArrows: "solo",
             navigationStyle: "preview4",
             
-            touchenabled: "on",
+            touchenabled: "off",
             onHoverStop: "on",
             
             swipe_velocity: 0.7,

@@ -6636,3 +6636,27 @@ vertical-align: middle;
     border: 2px solid rgba(255, 255, 255, .75);
     transform: scale(1.1);
 } 
+
+.section-more:hover {
+    color: rgba(211, 84, 0, 0.9) !important;
+}
+
+#what,
+#we,
+#do {
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#what:hover{
+    color: #d35400;   
+}
+
+#we:hover{
+    color: #d35400;
+}
+
+#do:hover{
+    color: #d35400;
+}
