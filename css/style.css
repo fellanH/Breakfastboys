@@ -6676,6 +6676,7 @@ header {
     height: 100vh;
 }
 
+
 .hero-text-box {
     color: #fff;
     text-align: center;
@@ -6687,19 +6688,19 @@ header {
 }
 
 #desc-item-1{
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-duration: 3s;
 }
 #desc-item-2{
-    animation-delay: 3s;
+    animation-delay: 1.2s;
     animation-duration: 3s;
 }
 #desc-item-3{
-    animation-delay: 4s;
+    animation-delay: 1.4s;
     animation-duration: 3s;
 }
 #desc-item-4{
-    animation-delay: 5s;
+    animation-delay: 1.6s;
     animation-duration: 3s;
 }
 
