@@ -6760,4 +6760,30 @@ header {
     animation-delay: 3s;
     animation-duration: 2s;
 }
+/* ==============================
+           Multi language
+   ============================== */
 
+   #select{
+        background: transparent;
+        background-color: rgba(0, 0, 0, .0);
+        border: none;
+        color: #fff;
+        height: 40px;
+        
+   }
+
+   #select option {
+       background: transparent;
+       background-color: #111;
+
+   }
+
+   #select:focus {
+       outline: none;
+   }
+
+   .english-block { display: block; }
+   .swedish-block { display: none; }
+   .english-inline-block { display: inline-block; }
+   .swedish-inline-block { display: none; }
