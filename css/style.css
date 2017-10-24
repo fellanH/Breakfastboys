@@ -6670,10 +6670,31 @@ vertical-align: middle;
 }
 
 header {
+    
+    height: 100vh;
+}
+
+.z-index-50 {
+    z-index: 999;
+}
+
+#about {
+    border-top: 1px solid #fff;
+}
+
+.header-img{
     background-image: url(images/section-bg-17.jpg);
+    animation: animatedBackground 20s linear infinite;
+    animation-direction: alternate;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
+    z-index: 1;
+}
+
+@keyframes animatedBackground {
+	from { background-size: cover; }
+	to { transform: scale(1.2); }
 }
 
 
@@ -6730,14 +6751,13 @@ header {
     font-family: Dosis, arial, sans-serif;
     font-size: 64px;
     letter-spacing: 44px;
-    animation-delay: 3s;
-    animation-duration: 2s;
+    
 }
 
 
 #hero-btn {
     font-size: 15px;
-    animation-delay: 5s;
-    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-duration: 2s;
 }
 
