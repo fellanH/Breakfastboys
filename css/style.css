@@ -1451,7 +1451,7 @@ a.btn-mod:focus{
 
 .nav-logo-wrap{
     float: left;
-    margin-right: 20px;
+    margin-left: 10px;
 }
 .nav-logo-wrap .logo{
     display: table-cell;
@@ -1488,7 +1488,7 @@ a.logo:hover{
  */
 
 .main-nav{
-    width: 100%;
+    width: 100vw;
     height: 75px !important;
     position: relative;
     top: 0;
@@ -1698,10 +1698,9 @@ a.logo:hover{
 
 .mobile-on .desktop-nav{
     display: none;
-    width: 100%;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     padding: 0 15px;
     
     z-index: 100;    
@@ -6649,19 +6648,6 @@ vertical-align: middle;
     box-shadow: none !important;
     background: transparent !important;
 }
-#hero-desc{
-    font-size: 15px !important;
-}
-
-#hero-title{
-    font-size: 64px !important;
-}
-
-#portfolio-btn {
-    font-size: 14px !important;
-}
-
-
 
 #what,
 #we,
@@ -6682,3 +6668,63 @@ vertical-align: middle;
 #do:hover{
     color: #d35400;
 }
+
+header {
+    background-image: url(images/section-bg-17.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#desc-item-1{
+    animation-delay: 2s;
+    animation-duration: 3s;
+}
+#desc-item-2{
+    animation-delay: 3s;
+    animation-duration: 3s;
+}
+#desc-item-3{
+    animation-delay: 4s;
+    animation-duration: 3s;
+}
+#desc-item-4{
+    animation-delay: 5s;
+    animation-duration: 3s;
+}
+
+#hero-desc {
+    font-size: 15px;
+    font-family: Dosis, arial, sans-serif;
+    letter-spacing: 4px;
+    line-height: 18px;
+    text-transform: uppercase;
+    animation-delay: 0.5s;
+}
+
+#hero-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Dosis, arial, sans-serif;
+    font-size: 64px;
+    letter-spacing: 44px;
+    animation-delay: 1s;
+}
+
+
+#hero-btn {
+    font-size: 15px;
+    animation-delay: 1.5s;
+}
+
