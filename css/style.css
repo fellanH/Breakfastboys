@@ -6640,10 +6640,6 @@ vertical-align: middle;
     color: rgba(211, 84, 0, 0.9) !important;
 }
 
-.team-item-image:hover{
-    
-}
-
 .mfp-figure:after {
     box-shadow: none !important;
     background: transparent !important;
@@ -6760,6 +6756,11 @@ header {
     animation-delay: 3s;
     animation-duration: 2s;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /* ==============================
            Multi language
    ============================== */
@@ -6790,3 +6791,4 @@ header {
    .swedish-block { display: none; }
    .english-inline-block { display: inline-block; }
    .swedish-inline-block { display: none; }
+
