@@ -6597,12 +6597,20 @@ section:hover .small-item-carousel .owl-next{
             Egen Css
    ============================== */
 
-.background-dark {
-    background-color: #070707 !important;
-}
-
 .padding-top-80 {
     padding-top: 80px !important;
+}
+
+.padding-top-100 {
+    padding-top: 100px !important;
+}
+
+.padding-top-120 {
+    padding-top: 120px !important;
+}
+
+.background-dark {
+    background-color: #070707 !important;
 }
 
 .light-grey {
@@ -6612,10 +6620,6 @@ section:hover .small-item-carousel .owl-next{
 .background-black {
     background-color: black;
     padding-top: 80px;
-}
-
-.padding-top-100 {
-    padding-top: 100px;
 }
 
 .padding-top-portfolio {
