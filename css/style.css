@@ -5605,7 +5605,7 @@ section:hover .small-item-carousel .owl-next{
     border: 1px solid #fff;
 }
 .et-examples .box1:hover > span {
-    border-right: 1px solid #d35400;
+    /* border-right: 1px solid #ffffff; */
 }
 .et-examples .box1 > span{
     display: inline-block;
