@@ -5607,7 +5607,7 @@ section:hover .small-item-carousel .owl-next{
     border: 1px solid #fff;
 }
 .et-examples .box1:hover > span {
-    border-right: 1px solid #d35400;
+    /* border-right: 1px solid #ffffff; */
 }
 .et-examples .box1 > span{
     display: inline-block;
@@ -6599,12 +6599,20 @@ section:hover .small-item-carousel .owl-next{
             Egen Css
    ============================== */
 
-.background-dark {
-    background-color: #070707 !important;
-}
-
 .padding-top-80 {
     padding-top: 80px !important;
+}
+
+.padding-top-100 {
+    padding-top: 100px !important;
+}
+
+.padding-top-120 {
+    padding-top: 120px !important;
+}
+
+.background-dark {
+    background-color: #070707 !important;
 }
 
 .light-grey {
@@ -6614,10 +6622,6 @@ section:hover .small-item-carousel .owl-next{
 .background-black {
     background-color: black;
     padding-top: 80px;
-}
-
-.padding-top-100 {
-    padding-top: 100px;
 }
 
 .padding-top-portfolio {
@@ -6640,10 +6644,6 @@ vertical-align: middle;
 
 .section-more:hover {
     color: rgba(211, 84, 0, 0.9) !important;
-}
-
-.team-item-image:hover{
-    
 }
 
 .mfp-figure:after {
@@ -6762,6 +6762,11 @@ header {
     animation-delay: 3s;
     animation-duration: 2s;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /* ==============================
            Multi language
    ============================== */
@@ -6792,3 +6797,4 @@ header {
    .swedish-block { display: none; }
    .english-inline-block { display: inline-block; }
    .swedish-inline-block { display: none; }
+
