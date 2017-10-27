@@ -1527,7 +1527,7 @@ a.logo:hover{
 .inner-nav ul{
     float: right;
     margin: auto;
-    font-size: 11px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1748,7 +1748,8 @@ a.logo:hover{
     border-right: none;
     /* border-bottom: 1px solid rgba(255,255,255, .065); */
     color: #999;
-    letter-spacing: 1px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
     cursor: pointer;
 }
 .mobile-on .desktop-nav ul li a:hover,
@@ -1887,7 +1888,7 @@ a.logo:hover{
     box-shadow:  none;
 }
 .main-nav.dark .inner-nav ul > li > a{
-    color: rgba(255,255,255, .7);
+    color: rgba(255,255,255, 1);
 }
 .main-nav.dark .inner-nav ul > li > a:hover,
 .main-nav.dark .inner-nav ul > li > a.active{
