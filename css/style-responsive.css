@@ -220,6 +220,18 @@ Primary use:    MultiPurpose Template
     .full-wrapper {
     background-color: #111;
 }
+    #select{
+        font-size: 30px;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
+        margin: 0px;
+        float: none;
+    }
+
+    .language {
+        text-align: center;
+    }
 
 }
 

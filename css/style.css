@@ -1466,6 +1466,7 @@ a.btn-mod:focus{
 }
 .nav-logo-wrap .logo img{
     max-height: 100%;
+    margin-left: 20px;
 }
 .nav-logo-wrap .logo:before,
 .nav-logo-wrap .logo:after{
@@ -6764,9 +6765,12 @@ html, body {
         background-color: rgba(0, 0, 0, .0);
         border: none;
         color: #fff;
-        height: 70px;
+        height: 75px;
         float: left;
-        font-size: 14px;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-right: 60px;
         
    }
 
