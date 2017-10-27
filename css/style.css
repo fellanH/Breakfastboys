@@ -6452,7 +6452,7 @@ section:hover .small-item-carousel .owl-next{
 
 .demo > a {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   left: 50%;
   z-index: 2;
   display: inline-block;
