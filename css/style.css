@@ -1702,9 +1702,9 @@ a.logo:hover{
     display: none;
     position: absolute;
     top: 100%;
-    right: 0;
+    right: -16px;
     padding: 0 15px;
-    z-index: 100;    
+    z-index: 100;
 }
 .mobile-on .full-wrapper .desktop-nav{
     padding: 0;
@@ -1714,7 +1714,7 @@ a.logo:hover{
 .mobile-on .desktop-nav ul{
     width: 100%;
     float: none;
-    background: rgba(18,18,18, .97);
+    background: rgba(0,0,0, .97);
     position: relative;
     overflow-x: hidden;
 }
