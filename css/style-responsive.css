@@ -217,6 +217,10 @@ Primary use:    MultiPurpose Template
         animation-delay: 1.5s;
     }
 
+    .full-wrapper {
+    background-color: #000;
+}
+
 }
 
   
