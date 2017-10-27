@@ -1716,7 +1716,7 @@ a.logo:hover{
 .mobile-on .desktop-nav ul{
     width: 100%;
     float: none;
-    background: rgba(0,0,0, .9);
+    background: #111;
     position: relative;
     overflow-x: hidden;
 }
