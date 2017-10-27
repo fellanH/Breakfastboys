@@ -1716,7 +1716,7 @@ a.logo:hover{
     overflow-x: hidden;
 }
 .mobile-on .desktop-nav > ul{
-    overflow-y: auto;
+    overflow-y: autoF;
 }
 .mobile-on .desktop-nav ul li{
     display: block;
@@ -6771,9 +6771,9 @@ html, body {
         background-color: rgba(0, 0, 0, .0);
         border: none;
         color: #fff;
-        height: 52px;
+        height: 70px;
         float: left;
-        font-size: 11px;
+        font-size: 14px;
         
    }
 
