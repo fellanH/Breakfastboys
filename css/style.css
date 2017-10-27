@@ -1509,13 +1509,6 @@ a.logo:hover{
 }
 
 
-.small-height{
-    height: 55px !important;
-}
-.small-height .inner-nav ul li a{
-    height: 55px !important;
-    line-height: 55px !important;
-}
 .inner-nav{
     display: inline-block;
     position: relative;
