@@ -162,9 +162,6 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     background: none;
 }
 
-.full-wrapper {
-    margin: 0;
-}
 .container-fluid{
     max-width: 1170px;
     margin: 0 auto;
@@ -1702,8 +1699,6 @@ a.logo:hover{
     display: none;
     position: absolute;
     top: 100%;
-    right: -16px;
-    padding: 0 15px;
     z-index: 100;    
     width: 100vw;
     height: 100vh;
