@@ -1702,7 +1702,8 @@ a.logo:hover{
     display: none;
     position: absolute;
     top: 100%;
-    float: right;
+    right: 0;
+    padding: 0 15px;
     z-index: 100;    
 }
 .mobile-on .full-wrapper .desktop-nav{
