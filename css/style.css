@@ -1716,7 +1716,7 @@ a.logo:hover{
 .mobile-on .desktop-nav ul{
     width: 100%;
     float: none;
-    background: rgba(0,0,0, .97);
+    background: rgba(0,0,0, .9);
     position: relative;
     overflow-x: hidden;
 }
@@ -1746,7 +1746,7 @@ a.logo:hover{
     text-align: center;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid rgba(255,255,255, .065);
+    /* border-bottom: 1px solid rgba(255,255,255, .065); */
     color: #999;
     letter-spacing: 1px;
     cursor: pointer;
@@ -1880,7 +1880,7 @@ a.logo:hover{
  */
 
 .main-nav.dark{
-    background-color: rgba(10,10,10, .95);
+    background-color: rgba(0,0,0, .9);
     
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -2157,7 +2157,7 @@ a.logo:hover{
     padding: 50px 30px;
     overflow-x: hidden;
     overflow-y: auto;
-    background: rgba(10,10,10, .97);
+    background: rgba(0,0,0, .9);
     z-index: 2000;
     
     -moz-box-sizing: border-box;
