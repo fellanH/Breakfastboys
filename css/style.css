@@ -1705,6 +1705,8 @@ a.logo:hover{
     right: 0;
     padding: 0 15px;
     z-index: 100;    
+    width: 100vw;
+    height: 100vh;
 }
 .mobile-on .full-wrapper .desktop-nav{
     padding: 0;
