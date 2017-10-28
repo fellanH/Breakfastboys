@@ -6663,9 +6663,9 @@ header {
 }
 
 .header-img{
-    background-image: url(images/crown.gif);
-   /* animation: animatedBackground 20s linear infinite;
-    animation-direction: alternate; */
+    background-image: url(images/section-bg-17.jpg);
+    animation: animatedBackground 20s linear infinite;
+    animation-direction: alternate;
     background-size: cover;
     background-position: center;
     height: 100%;
