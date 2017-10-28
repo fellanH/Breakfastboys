@@ -405,7 +405,7 @@ blockquote{
 }
 blockquote p{
     margin-bottom: 1em;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 300;
     font-style: normal;
     line-height: 1.6;
@@ -6515,7 +6515,7 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .color-orange{
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: #e74c3c !important;
 }
 
 .uppercase {
@@ -6644,20 +6644,20 @@ vertical-align: middle;
 #we,
 #do {
     font-weight: 600;
-    cursor: pointer;
+    cursor: default;
     transition: 0.5s;
 }
 
 #what:hover{
-    color: #d35400;   
+   color: #e74c3c;   
 }
 
 #we:hover{
-    color: #d35400;
+    color: #f1c40f;
 }
 
 #do:hover{
-    color: #d35400;
+    color: #3498db;
 }
 
 header {
