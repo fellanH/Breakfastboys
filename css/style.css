@@ -6514,7 +6514,7 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .color-orange{
-    color: rgb(211, 84, 0) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .uppercase {
@@ -6522,7 +6522,7 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .inner-nav ul li a:hover {
-    color: rgb(211, 84, 0) !important;
+    color: rgba(255, 255, 255, 0.2) !important;
 }
 
 
@@ -6624,14 +6624,14 @@ vertical-align: middle;
 }
 
 #portfolio-btn:hover{
-    background-color: rgba(211, 84, 0, 0.5) !important;
+    background-color: rgba(255, 255, 255, 0.2)!important;
     color: #fff;
-    border: 2px solid rgba(255, 255, 255, .75);
+    border: 2px solid rgba(255, 255, 255, 1);
     transform: scale(1.1);
 } 
 
 .section-more:hover {
-    color: rgba(211, 84, 0, 0.9) !important;
+    color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .mfp-figure:after {
@@ -6673,7 +6673,7 @@ header {
 }
 
 .header-img{
-    background-image: url(images/section-bg-17.jpg);
+    background-image: url(images/crown.gif);
     animation: animatedBackground 20s linear infinite;
     animation-direction: alternate;
     background-size: cover;
@@ -6755,6 +6755,12 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.divider-lg {
+    background-color: #111;
+    height: 75px;
+}
+
 /* ==============================
            Multi language
    ============================== */
