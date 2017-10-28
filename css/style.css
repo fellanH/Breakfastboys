@@ -1219,7 +1219,7 @@ a.btn-mod:focus{
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgba(255,255,255, .85);
+    color: rgba(0,0,0, .85);
 }
 .hs-line-5{
     margin-top: 0;
