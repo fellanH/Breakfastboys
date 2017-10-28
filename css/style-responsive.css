@@ -233,6 +233,14 @@ Primary use:    MultiPurpose Template
         text-align: center;
     }
 
+    .mn-has-sub {
+        padding-bottom: 50px !important;
+    }
+
+    .mn-has-sub > i {
+        display: none !important;
+    }
+
 }
 
   
@@ -810,7 +818,7 @@ Primary use:    MultiPurpose Template
     }
     
     .section-more {
-        color: #d35400 !important;
+        color: #fff;
     }
 
     #services {

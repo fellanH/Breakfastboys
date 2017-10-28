@@ -1711,6 +1711,8 @@ a.logo:hover{
     position: relative;
     overflow-x: hidden;
     padding-top: 40px;
+    padding-bottom: 200px;
+    max-height: 100vh !important;
 }
 .mobile-on .desktop-nav > ul{
     overflow-y: autoF;
@@ -1742,7 +1744,8 @@ a.logo:hover{
     word-spacing: 10px;
     letter-spacing: 5px;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 200;
 }
 .mobile-on .desktop-nav ul li a:hover,
 .mobile-on .desktop-nav ul li a.active{
