@@ -1698,22 +1698,23 @@ a.logo:hover{
     height: 100vh;
 }
 .mobile-on .full-wrapper .desktop-nav{
-    padding: 0;
+    padding-top: 0;
 }
 
 
 .mobile-on .desktop-nav ul{
     width: 100%;
+    height: 100%;
     float: none;
     background: #111;
     position: relative;
     overflow-x: hidden;
+    padding-top: 40px;
 }
 .mobile-on .desktop-nav > ul{
     overflow-y: autoF;
 }
 .mobile-on .desktop-nav ul li{
-    display: block;
     float: none !important;
     overflow: hidden;
     width: 100%;
@@ -1743,7 +1744,7 @@ a.logo:hover{
 }
 .mobile-on .desktop-nav ul li a:hover,
 .mobile-on .desktop-nav ul li a.active{
-    background: rgba(255,255,255, .03);
+    background: #111;
     color: #ddd;
 }
 
@@ -6674,8 +6675,8 @@ header {
 
 .header-img{
     background-image: url(images/crown.gif);
-    animation: animatedBackground 20s linear infinite;
-    animation-direction: alternate;
+   /* animation: animatedBackground 20s linear infinite;
+    animation-direction: alternate; */
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -6691,7 +6692,7 @@ header {
 .hero-text-box {
     color: #fff;
     text-align: center;
-    position: absolute;
+    position: absolute !important;
     width: 100vw;
     top: 50%;
     left: 50%;
