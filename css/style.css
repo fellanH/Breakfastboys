@@ -1306,6 +1306,7 @@ a.btn-mod:focus{
     letter-spacing: 0.5em;
     line-height: 1.8;
     opacity: .9;
+    color: rgba(255,255,255, .85);
 }
 .hs-line-12{
     margin-top: 0;
@@ -2413,6 +2414,7 @@ a.logo:hover{
     background-color: #f8f8f8;
 }
 .bg-dark,
+.bg-blue,
 .bg-dark-lighter,
 .bg-dark-alfa-30,
 .bg-dark-alfa-50,
@@ -2429,6 +2431,7 @@ a.logo:hover{
     color: #fff;
 }
 .bg-dark a,
+.bg-blue a,
 .bg-dark-lighter a,
 .bg-dark-alfa-30 a,
 .bg-dark-alfa-50 a,
@@ -2453,6 +2456,7 @@ a.logo:hover{
 }
 
 .bg-dark a:hover,
+.bg-blue a:hover,
 .bg-dark-lighter a:hover,
 .bg-dark-alfa-30 a:hover,
 .bg-dark-alfa-50 a:hover,
