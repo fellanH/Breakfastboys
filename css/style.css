@@ -6773,36 +6773,8 @@ html, body {
    margin-bottom: 20px;
 }
 
-/* ==============================
-           Multi language
-   ============================== */
 
-   #select{
-        display: inline-block;
-        background: transparent;
-        background-color: rgba(0, 0, 0, .0);
-        border: none;
-        color: #fff;
-        height: 75px;
-        float: left;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-right: 60px;
-        
-   }
 
-   #select option {
-       background: transparent;
-       background-color: #111;
-   }
-
-   #select:focus {
-       outline: none;
-   }
-
-   .english-block { display: block; }
-   .swedish-block { display: none; }
-   .english-inline-block { display: inline-block; }
-   .swedish-inline-block { display: none; }
-
+.phone-fix {
+    display: none !important;
+}

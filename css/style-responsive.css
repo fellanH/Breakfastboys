@@ -233,6 +233,14 @@ Primary use:    MultiPurpose Template
         text-align: center;
     }
 
+    .phone-fix {
+        display: block !important;
+    }
+
+    .phone-fix-1 {
+    display: none !important;
+}
+
     .mn-has-sub {
         padding-bottom: 50px !important;
     }
