@@ -1219,7 +1219,7 @@ a.btn-mod:focus{
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgba(0,0,0, .85);
+    color: rgba(255,255,255, .85);
 }
 .hs-line-5{
     margin-top: 0;
@@ -2502,7 +2502,7 @@ a.logo:hover{
     background-color: #070707 !important;
 }
 .bg-dark-lighter{
-    background-color: #111;
+    background-color: #252525;
 }
 .bg-dark-alfa:before,
 .bg-dark-alfa .YTPOverlay:before{
