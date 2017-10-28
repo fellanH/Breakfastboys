@@ -6791,7 +6791,6 @@ html, body {
    #select option {
        background: transparent;
        background-color: #111;
-
    }
 
    #select:focus {
