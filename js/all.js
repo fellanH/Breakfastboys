@@ -329,19 +329,28 @@
         $(".lightbox-gallery-1").magnificPopup({
             gallery: {
                 enabled: true
-            }
+            },
+            mainClass: "mfp-fade"
         });
         
         // Other Custom Lightbox
         $(".lightbox-gallery-2").magnificPopup({
             gallery: {
                 enabled: true
-            }
+            },
+            mainClass: "mfp-fade"
+        });
+        $(".lightbox-gallery-2").magnificPopup({
+            gallery: {
+                enabled: true
+            },
+            mainClass: "mfp-fade"
         });
         $(".lightbox-gallery-3").magnificPopup({
             gallery: {
                 enabled: true
-            }
+            },
+            mainClass: "mfp-fade"
         });
         $(".lightbox").magnificPopup();
         
