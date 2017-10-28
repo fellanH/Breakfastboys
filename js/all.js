@@ -340,13 +340,13 @@
             },
             mainClass: "mfp-fade"
         });
-        $(".lightbox-gallery-2").magnificPopup({
+        $(".lightbox-gallery-3").magnificPopup({
             gallery: {
                 enabled: true
             },
             mainClass: "mfp-fade"
         });
-        $(".lightbox-gallery-3").magnificPopup({
+        $(".lightbox-gallery-4").magnificPopup({
             gallery: {
                 enabled: true
             },
