@@ -633,8 +633,8 @@ a.btn-mod{
 a.btn-mod:hover,
 a.btn-mod:focus{
     font-weight: 400;
-    color: rgba(255,255,255, .85);
-    background: rgba(211, 84, 0,1);
+    color: #111;
+    background: #fff;
     text-decoration: none;
     outline: none;
     border-color: transparent;    
