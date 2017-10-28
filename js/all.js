@@ -289,7 +289,7 @@
         $(".local-scroll").localScroll({
             target: "body",
             duration: 1500,
-            offset: -56,
+            offset: -75,
             easing: "easeInOutExpo"
         });
         
