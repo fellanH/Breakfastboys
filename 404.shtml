@@ -9,6 +9,8 @@
         <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
         
+        <base href="http://localhost/Breakfastboys/">
+        
         <!-- Favicons -->
         <link rel="shortcut icon" href="images/favicon.png">
 
@@ -54,7 +56,7 @@
                                     </div>
                                     
                                     <div class="local-scroll">                                        
-                                        <a href="index.html" class="btn btn-mod btn-w btn-round btn-small"><i class="fa fa-angle-left"></i> Back To Home Page</a>                                        
+                                        <a href="sv/index.html" class="btn btn-mod btn-w btn-round btn-small"><i class="fa fa-angle-left"></i> Back To Home Page</a>                                        
                                     </div>
                                     
                                 </div>
@@ -75,7 +77,7 @@
                 <div class="full-wrapper relative clearfix">
                     <!-- Logo ( * your text or image into link tag *) -->
                     <div class="nav-logo-wrap local-scroll">
-                        <a href="mp-index.html" class="logo">
+                        <a href="sv/index.html" class="logo">
                             <img src="images/logo-white.png" alt="" />
                         </a>
                     </div>
@@ -101,7 +103,7 @@
                     
                     <!-- Footer Logo -->
                     <div class="local-scroll mb-30 wow fadeInUp inverted" data-wow-duration="1.5s">
-                        <a href="index.html"><img src="images/logo-footer.png" width="78" height="36" alt="" /></a>
+                        <a href="sv/index.html"><img src="images/logo-footer.png" width="78" height="36" alt="" /></a>
                     </div>
                     <!-- End Footer Logo -->
                     
