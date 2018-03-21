@@ -353,6 +353,34 @@
             mainClass: "mfp-fade"
         });
         $(".lightbox").magnificPopup();
+        $(".lightbox-gallery-5").magnificPopup({
+            gallery: {
+                enabled: true
+            },
+            mainClass: "mfp-fade"
+        });
+        $(".lightbox").magnificPopup();
+        $(".lightbox-gallery-6").magnificPopup({
+            gallery: {
+                enabled: true
+            },
+            mainClass: "mfp-fade"
+        });
+        $(".lightbox").magnificPopup();
+        $(".lightbox-gallery-7").magnificPopup({
+            gallery: {
+                enabled: true
+            },
+            mainClass: "mfp-fade"
+        });
+        $(".lightbox").magnificPopup();
+        $(".lightbox-gallery-8").magnificPopup({
+            gallery: {
+                enabled: true
+            },
+            mainClass: "mfp-fade"
+        });
+        $(".lightbox").magnificPopup();
         
     }
     
