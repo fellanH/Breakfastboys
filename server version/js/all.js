@@ -309,11 +309,7 @@
         
     }
 
-    $(".local-scroll").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#section-4").offset().top
-        }, 2000);
-    });
+
     
     
     
